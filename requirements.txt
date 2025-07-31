@@ -2,3 +2,24 @@ fastapi
 uvicorn 
 websockets 
 httpx
+python-dotenv
+sqlalchemy
+pydantic
+# Enhanced logging and monitoring
+structlog
+prometheus-client
+# Security enhancements
+python-jose[cryptography]
+PyJWT
+passlib[bcrypt]
+python-multipart
+# Rate limiting
+slowapi
+# Health checks
+healthcheck
+# CORS support - Note: CORS is built into FastAPI, no separate package needed
+# Database enhancements
+alembic
+psycopg2-binary
+# Additional missing dependencies
+asyncio-mqtt
